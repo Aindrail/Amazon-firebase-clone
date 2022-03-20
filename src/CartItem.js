@@ -10,17 +10,17 @@ const CartItem = ({ id, item }) => {
     }
 
 
-    let options = []
+    // let options = []
 
-    for (let i = 1; i < Math.max(item.quantity + 1, 20); i++) {
-        options.push(<option value={i}> Qty: {i}</option>)
-    }
+    // for (let i = 1; i < Math.max(item.quantity + 1, 20); i++) {
+    //     options.push(<option value={i}> Qty: {i}</option>)
+    // }
 
-    const changeQuantity = (newQuantity) => {
-        db.collection('cartItems').doc(id).update({
-            quantity: parseInt(newQuantity)
-        })
-    }
+    // const changeQuantity = (newQuantity) => {
+    //     db.collection('cartItems').doc(id).update({
+    //         quantity: parseInt(newQuantity)
+    //     })
+    // }
 
     return (
         <Container>
