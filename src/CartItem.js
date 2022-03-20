@@ -65,18 +65,18 @@ const Container = styled.div`
     border-bottom: 1px solid #DDD;
 `
 
-const ImageContainer = styled.div`
-    width: 180px;
-    height: 180px;
-    flex-shrink: 0;
-    flex-grow: 0;
-    margin-right: 16px;
-    img{
-        object-fit: contain;
-        height: 100%;
-        width: 100%;
-    }
-`
+// const ImageContainer = styled.div`
+//     width: 180px;
+//     height: 180px;
+//     flex-shrink: 0;
+//     flex-grow: 0;
+//     margin-right: 16px;
+//     img{
+//         object-fit: contain;
+//         height: 100%;
+//         width: 100%;
+//     }
+// `
 const CartItemInfo = styled.div`
     flex-grow: 1;
 `
