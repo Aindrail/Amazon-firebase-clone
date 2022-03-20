@@ -16,11 +16,11 @@ function CartTotal({ getTotalPrice, getCount }) {
 
 export default CartTotal
 
-const Container = styled.div`
-    flex: 0.3;
-    padding: 20px;
-    background-color: white;
-`
+// const Container = styled.div`
+//     flex: 0.3;
+//     padding: 20px;
+//     background-color: white;
+// `
 const Subtotal = styled.h2`
     margin-bottom: 16px;
 `
