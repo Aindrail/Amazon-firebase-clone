@@ -2,24 +2,24 @@
 import styled from 'styled-components'
 import CartItem from './CartItem'
 
-function CartItems({ cartItems }) {
-    return (
-        <Container>
-            <Title>Shopping Cart</Title>
-            <hr />
-            <ItemsContainer>
-                {
-                    cartItems.map((item)=>(
-                        <CartItem 
-                            id={item.id}
-                            item={item.product}
-                        />
-                    ))
-                }
-            </ItemsContainer>
-        </Container>
-    )
-}
+// function CartItems({ cartItems }) {
+//     return (
+//         <Container>
+//             <Title>Shopping Cart</Title>
+//             <hr />
+//             <ItemsContainer>
+//                 {
+//                     cartItems.map((item)=>(
+//                         <CartItem 
+//                             id={item.id}
+//                             item={item.product}
+//                         />
+//                     ))
+//                 }
+//             </ItemsContainer>
+//         </Container>
+//     )
+// }
 
 export default CartItems
 
