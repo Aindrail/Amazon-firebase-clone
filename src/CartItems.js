@@ -30,8 +30,8 @@ const Container = styled.div`
     background-color: white;
 `
 
-const Title = styled.h1`
-    margin-bottom: 8px;
-`
-const ItemsContainer = styled.div`
-`
+// const Title = styled.h1`
+//     margin-bottom: 8px;
+// `
+// const ItemsContainer = styled.div`
+// `
