@@ -107,11 +107,11 @@ const CartItemQuantityContainer = styled.div`
     }
 `
 
-// const CartItemDeleteContainer = styled.div`
-//     color: #007185;
-//     margin-left: 16px;
-//     cursor: pointer;
-// `
+const CartItemDeleteContainer = styled.div`
+    color: #007185;
+    margin-left: 16px;
+    cursor: pointer;
+`
 
 const CartItemPrice = styled.div`
     font-size: 18px;
