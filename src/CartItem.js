@@ -77,22 +77,22 @@ const ImageContainer = styled.div`
         width: 100%;
     }
 `
-const CartItemInfo = styled.div`
-    flex-grow: 1;
-`
+// const CartItemInfo = styled.div`
+//     flex-grow: 1;
+// `
 
-const CartItemInfoTop = styled.div`
-    color: #007185;
-    h2 {
-        font-size: 18px;
-    }
-`
+// const CartItemInfoTop = styled.div`
+//     color: #007185;
+//     h2 {
+//         font-size: 18px;
+//     }
+// `
 
-const CartItemInfoBottom = styled.div`
-    display: flex;
-    margin-top: 4px;
-    align-items: center;
-`
+// const CartItemInfoBottom = styled.div`
+//     display: flex;
+//     margin-top: 4px;
+//     align-items: center;
+// `
 
 const CartItemQuantityContainer = styled.div`
     select {
