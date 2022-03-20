@@ -70,9 +70,9 @@ const Price = styled.span`
     font-weight: 500;
     margin-top: 3px;
 `
-const Rating = styled.div`
-    display: flex;
-`
+// const Rating = styled.div`
+//     display: flex;
+// `
 const Image = styled.img`
     max-height: 200px;
     object-fit: contain;
