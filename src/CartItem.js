@@ -22,37 +22,37 @@ const CartItem = ({ id, item }) => {
         })
     }
 
-    return (
-        <Container>
-            <ImageContainer>
-                <img src={item.image} />
-            </ImageContainer>
+    // return (
+    //     <Container>
+    //         <ImageContainer>
+    //             <img src={item.image} />
+    //         </ImageContainer>
 
-            <CartItemInfo>
-                <CartItemInfoTop>
-                    <h2>{item.name}</h2>
-                </CartItemInfoTop>
-                <CartItemInfoBottom>
-                    <CartItemQuantityContainer>
-                        <select
-                            value={item.quantity}
-                            onChange={(e) => changeQuantity(e.target.value)}
-                        >
-                            {options}
-                        </select>
-                    </CartItemQuantityContainer>
-                    <CartItemDeleteContainer
-                        onClick={deleteItem}
-                    >
-                        Delete
-                    </CartItemDeleteContainer>
-                </CartItemInfoBottom>
-            </CartItemInfo>
-            <CartItemPrice>
-                ${item.price}
-            </CartItemPrice>
-        </Container>
-    )
+    //         <CartItemInfo>
+    //             <CartItemInfoTop>
+    //                 <h2>{item.name}</h2>
+    //             </CartItemInfoTop>
+    //             <CartItemInfoBottom>
+    //                 <CartItemQuantityContainer>
+    //                     <select
+    //                         value={item.quantity}
+    //                         onChange={(e) => changeQuantity(e.target.value)}
+    //                     >
+    //                         {options}
+    //                     </select>
+    //                 </CartItemQuantityContainer>
+    //                 <CartItemDeleteContainer
+    //                     onClick={deleteItem}
+    //                 >
+    //                     Delete
+    //                 </CartItemDeleteContainer>
+    //             </CartItemInfoBottom>
+    //         </CartItemInfo>
+    //         <CartItemPrice>
+    //             ${item.price}
+    //         </CartItemPrice>
+    //     </Container>
+    // )
 }
 
 export default CartItem
