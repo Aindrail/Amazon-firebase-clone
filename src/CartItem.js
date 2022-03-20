@@ -113,8 +113,8 @@ const CartItemDeleteContainer = styled.div`
     cursor: pointer;
 `
 
-const CartItemPrice = styled.div`
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 16px;
-`
+// const CartItemPrice = styled.div`
+//     font-size: 18px;
+//     font-weight: 700;
+//     margin-left: 16px;
+// `
