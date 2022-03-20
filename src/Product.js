@@ -5,26 +5,26 @@ import { db } from './firebase'
  
 function Product({ title, price, rating, image, id }) {
 
-    const addToCart = () => {
-        console.log(id);
-        const cartItem = db.collection("cartItems").doc(id);
-        cartItem.get()
-        .then((doc)=>{
-            console.log(doc);
-            if(doc.exists){
-                cartItem.update({
-                    quantity: doc.data().quantity + 1
-                })
-            } else {
-                db.collection("cartItems").doc(id).set({
-                    name: title,
-                    image: image,
-                    price: price,
-                    quantity: 1
-                })
-            }
-        })
-    }
+    // const addToCart = () => {
+    //     console.log(id);
+    //     const cartItem = db.collection("cartItems").doc(id);
+    //     cartItem.get()
+    //     .then((doc)=>{
+    //         console.log(doc);
+    //         if(doc.exists){
+    //             cartItem.update({
+    //                 quantity: doc.data().quantity + 1
+    //             })
+    //         } else {
+    //             db.collection("cartItems").doc(id).set({
+    //                 name: title,
+    //                 image: image,
+    //                 price: price,
+    //                 quantity: 1
+    //             })
+    //         }
+    //     })
+    // }
 
     return (
         <Container>
