@@ -50,6 +50,7 @@ function Product({ title, price, rating, image, id }) {
                 </AddToCartButton>
             </ActionSection>
         </Container>
+        
     )
 }
 
@@ -75,7 +76,7 @@ const Rating = styled.div`
 `
 const Image = styled.img`
     max-height: 200px;
-    object-fit: contain;
+     object-fit: contain;
 `
 
 const ActionSection = styled.div`
