@@ -19,19 +19,19 @@ function Login({ setUser }) {
         })
     }
 
-    // return (
-    //     <Container>
-    //         <Content>
-    //             <AmazonLogo src='http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG' />
-    //             <h1>Sign into Amazon</h1>
-    //             <LoginButton
-    //                 onClick={signIn}
-    //             >
-    //                 Sign in with Google
-    //             </LoginButton>
-    //         </Content>
-    //     </Container>
-    // )
+    return (
+        <Container>
+            <Content>
+                <AmazonLogo src='http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG' />
+                <h1>Sign into Amazon</h1>
+                <LoginButton
+                    onClick={signIn}
+                >
+                    Sign in with Google
+                </LoginButton>
+            </Content>
+        </Container>
+    )
 }
 
 export default Login
