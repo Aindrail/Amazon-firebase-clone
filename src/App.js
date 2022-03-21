@@ -9,7 +9,7 @@ import { db, auth } from './firebase'
 import Login from './Login'
 
 function App() {
-  const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')));
+  const [user, setUser] = useState(JSON.parse(localStorage.getItem('user'))); // will get the local storage even we refresh
   const [cartItems, setCartItems] = useState([]);
 
   const getCartItems = () => {
