@@ -16,11 +16,12 @@ const CartItem = ({ id, item }) => {
         options.push(<option value={i}> Qty: {i}</option>)
     }
 
-    const changeQuantity = (newQuantity) => {
-        db.collection('cartItems').doc(id).update({
-            quantity: parseInt(newQuantity)
-        })
-    }
+    // const changeQuantity = (newQuantity) => {
+    //     db.collection('cartItems').doc(id).update({
+    //         quantity: parseInt(newQuantity)
+    //     })
+    // }
+    //Changes the value in database when any change is done in the screen (i.e delete or add)
 
     return (
         <Container>
