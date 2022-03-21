@@ -50,13 +50,13 @@ function Home() {
 export default Home
 
 const Container = styled.div`
-    max-width: 1500px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto; //center the container
 `
 
 const Banner = styled.div`
     background-image: url('https://i.imgur.com/SYHeuYM.jpg');
-    min-height: 600px;
+    min-height: 700px;
     background-position: center;
     background-size: cover;
     z-index: 1;
