@@ -12,7 +12,7 @@ function Login({ setUser }) {
                 email: user.email,
                 photo: user.photoURL
             }
-            localStorage.setItem('user', JSON.stringify(newUser))
+            localStorage.setItem('user', JSON.stringify(newUser)) //if we refresh then it will not start from the login page
             setUser(newUser);
         }).catch((error)=>{
             alert(error.message);
