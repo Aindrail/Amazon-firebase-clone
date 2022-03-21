@@ -7,7 +7,7 @@ function CartTotal({ getTotalPrice, getCount }) {
     return (
         <Container>
             <Subtotal>Subtotal ({getCount()} items): 
-                <NumberFormat value={getTotalPrice()} displayType={'text'} thousandSeparator={true} prefix={'$'} />
+                <NumberFormat value={getTotalPrice()} displayType={'text'} thousandSeparator={true} prefix={'₹'} />
             </Subtotal>
             <CheckoutButton>Proceed to checkout</CheckoutButton>
         </Container>
@@ -32,7 +32,7 @@ const CheckoutButton = styled.button`
     padding: 4px 8px;
     border: 2px solid #a88734;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer; 
     font-size: 16px;
     :hover {
         background:  #ddb347;
