@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "clone-mar21"
-  }
+    "default": "clone-mar21",
+    "build": "clone-reactjs-aindrail"
+  },
+  "targets": {}
 }
