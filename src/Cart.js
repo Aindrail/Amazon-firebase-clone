@@ -5,13 +5,13 @@ import CartTotal from './CartTotal'
 
 function Cart({ cartItems }) {
 
-    // const getTotalPrice = () => {
-    //     let total = 0;
-    //     cartItems.forEach((item)=>{
-    //         total += (item.product.price * item.product.quantity)
-    //     })
-    //     return total;
-    // }
+    const getTotalPrice = () => {
+        let total = 0;
+        cartItems.forEach((item)=>{
+            total += (item.product.price * item.product.quantity)
+        })
+        return total;
+    }
 
     const getCount = () => {
         let count = 0;
