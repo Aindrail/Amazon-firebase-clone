@@ -4,10 +4,10 @@ import { db } from './firebase'
 
 const CartItem = ({ id, item }) => {
 
-    // const deleteItem = (e) => {
-    //     e.preventDefault()
-    //     db.collection('cartItems').doc(id).delete();
-    // }
+    const deleteItem = (e) => {
+        e.preventDefault()
+        db.collection('cartItems').doc(id).delete();
+    }
 
 
     let options = []
