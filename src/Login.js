@@ -43,13 +43,13 @@ const Container = styled.div`
     display: grid;
     place-items: center;
 `
-// const Content = styled.div`
-//     padding: 100px;
-//     background-color: white;
-//     border-radius: 5px;
-//     box-shadow: 0 1px 3px gray;
-//     text-align: center;
-// `
+const Content = styled.div`
+    padding: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px gray;
+    text-align: center;
+ `
 const AmazonLogo = styled.img`
     height: 100px;
     margin-bottom: 40px;
