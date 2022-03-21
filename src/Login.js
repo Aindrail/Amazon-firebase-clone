@@ -36,13 +36,13 @@ function Login({ setUser }) {
 
 export default Login
 
-const Container = styled.div`
-    width: 100%;
-    height: 100vh;
-    background-color: #f8f8f8;
-    display: grid;
-    place-items: center;
-`
+// const Container = styled.div`
+//     width: 100%;
+//     height: 100vh;
+//     background-color: #f8f8f8;
+//     display: grid;
+//     place-items: center;
+// `
 const Content = styled.div`
     padding: 100px;
     background-color: white;
