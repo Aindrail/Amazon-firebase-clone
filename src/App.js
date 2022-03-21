@@ -38,14 +38,14 @@ function App() {
   return (
     <Router>
       {
-        !user ? (
-          <Login setUser={setUser} />
-        ) : (
-          <Container>
-            <Header 
-              signOut={signOut}
-              user={user} 
-              cartItems={cartItems} />
+        // !user ? (
+        //   <Login setUser={setUser} />
+        // ) : (
+        //   <Container>
+        //     <Header 
+        //       signOut={signOut}
+        //       user={user} 
+        //       cartItems={cartItems} />
 
             <Switch>
 
