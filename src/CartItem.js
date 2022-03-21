@@ -44,7 +44,7 @@ const CartItem = ({ id, item }) => {
                     <CartItemDeleteContainer
                         onClick={deleteItem}
                     >
-                        Delete
+                        Remove from Cart
                     </CartItemDeleteContainer>
                 </CartItemInfoBottom>
             </CartItemInfo>
