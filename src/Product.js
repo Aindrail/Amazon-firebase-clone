@@ -49,8 +49,7 @@ function Product({ title, price, rating, image, id }) {
                      Add to Cart
                 </AddToCartButton>
             </ActionSection>
-        </Container>
-        
+        </Container> 
     )
 }
 
