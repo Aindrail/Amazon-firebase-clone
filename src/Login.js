@@ -50,10 +50,10 @@ const Content = styled.div`
     box-shadow: 0 1px 3px gray;
     text-align: center;
  `
-const AmazonLogo = styled.img`
-    height: 100px;
-    margin-bottom: 40px;
-`
+// const AmazonLogo = styled.img`
+//     height: 100px;
+//     margin-bottom: 40px;
+// `
 const LoginButton = styled.button`
     margin-top: 50px;
     background-color: #f0c14b;
