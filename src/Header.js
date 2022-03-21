@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+// import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import {
     Link
@@ -60,11 +61,21 @@ function Header({ cartItems, user, signOut }) {
                 </HeaderOption>
 
 
-                <HeaderOptionCart>
+                {/* <HeaderOptionCart>
                     <Link to="/cart">
-                        <ShoppingBasketIcon />
+                        <ShoppingCartIcon />
                         <CartCount>{getCount()}</CartCount>
                     </Link>
+                </HeaderOptionCart> */}
+                <HeaderOptionCart>
+                   <Link to="/cart">
+                    <CartCount>
+                        {getCount()}
+                    </CartCount>
+                    
+                    <ShoppingCartIcon/>  
+                    
+                    </Link>                
                 </HeaderOptionCart>
 
             </HeaderNavItems>
@@ -153,15 +164,16 @@ const HeaderOptionCart = styled.div`
     display: flex;
     a {
         display: flex;
-        align-items: center;
-        padding-right: 9px;
-        color: white;
-        text-decoration: none;
+        flex-direction: column;
+    justify-content: center;
+    padding-right: 9px;
+    color : white;
+    text-decoration: none;
     }
 `
 
 const CartCount = styled.div`
-    padding-left: 4px;
+    padding-left:7px;
     font-weight: 700;
     color: #f08804;
 
